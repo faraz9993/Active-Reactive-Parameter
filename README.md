@@ -1,9 +1,9 @@
 # Jenkins-Active-Reactive-Parameter
 
 ### In this task, I have created two parameters in Jenkins pipeline.
-### One parameter, list all the folders in the S3 bucket and other parameter takes the reference from the first parameter and lists all the files in that folder.
+### One parameter, lists all the folder in the S3 bucket and other parameter takes the reference from the first parameter and lists all the files in that folder.
 
-### First of all, create a pipeline > go to configuration > Select the project is parameterised
+### First of all, create a pipeline > go to configuration > Select "This project is parameterised"
 
 ```
 Name: FOLDER_LIST
@@ -49,3 +49,5 @@ Filter Starts At: 1
 Apply
 Save
 ```
+
+## Thank you!
